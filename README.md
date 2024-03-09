@@ -19,6 +19,11 @@ This is a group project I developed with several cohort mates during my time at 
 - Allows a user to set a category for a favorite image.
     - Each favorite image can only have one category at a time.
 
+## Screenshots
+
+![Home Screen](./public/screenshots/screenshot1.png)
+![Favorites Screen](./public/screenshots/screenshot2.png)
+
 ## Installation
 
 ### Prerequisites
@@ -28,7 +33,7 @@ This is a group project I developed with several cohort mates during my time at 
 ## Set-Up Instructions
 
 1. Create a database named `giphy_search_favorites`
-2. 2. The queries in the `database.sql` file are set up to create al the necessary tables and populate the needed data to allow the application to run correctly. This project is built on [Postgres](https://www.postgresql.org/download/), so you will need to make sure to have that installed. I recommend using Postico to run the quereis as that is what was used to create the queries.
+2. The queries in the `database.sql` file are set up to create al the necessary tables and populate the needed data to allow the application to run correctly. This project is built on [Postgres](https://www.postgresql.org/download/), so you will need to make sure to have that installed. I recommend using Postico to run the quereis as that is what was used to create the queries.
 3. Open up your editor of choice and run `npm install`.
 4. Run `npm run server` to start the server.
 5. Run `npm run client` to start the client.
